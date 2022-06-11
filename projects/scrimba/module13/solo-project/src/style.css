@@ -1,0 +1,141 @@
+/* Global */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 2.75em 0;
+    font-family: 'Inter', sans-serif;
+    background: #23252C;
+    color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Typography */
+.info--name,
+.info--title,
+.info--website {
+    margin: 0;
+}
+
+.info--name {
+    color: #FFF;
+    font-size: 1.56rem;
+    margin-bottom: .2em;
+}
+
+.info--title {
+    /* color: #F3BF99; */
+    color: #8ecae6;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-bottom: .5em;
+}
+
+.info--website {
+    font-size: 0.625rem;
+    font-weight: 400;
+}
+
+.section-heading {
+    margin: 0;
+    font-size: 1em;
+}
+
+.section-paragraph {
+    color: #DCDCDC;
+    font-weight: 400;
+    font-size: .625rem;
+    line-height: 150%;
+    margin: .3em 0;
+}
+
+/* ==========
+    Layout.js
+   ========== */
+header, 
+.section {
+    max-width: 320px;
+    background: #1A1B21;
+}
+
+.section {
+    padding: 1em 2em;
+}
+
+.interests-section {
+    padding-top: 0;
+}
+
+
+/* ==========
+    Info.js
+   ========== */
+header {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+    align-items: center;
+    max-width: 320px;
+}
+
+.info--pfp {
+    order: -1;
+    max-width: 100%;
+    margin: 0 0 1.3em 0;
+}
+
+.info--buttons {
+    margin: 1.2em 0;
+}
+
+.info--buttons a {
+    margin: .8em;
+}
+
+.btn {
+    text-decoration: none;
+    font-size: .9rem;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    padding: 0.5625em 2em;
+    border-radius: 6px;
+}
+
+.btn-primary {
+    background: #FFF;
+    color: #374151;
+    border: 1px solid #D1D5DB;
+}
+
+.btn-secondary {
+    background: #5093E2;
+    border: 1px solid #5093E2;
+    color: #FFF;
+}
+
+/* ==========
+    Footer.js
+   ========== */
+.footer {
+    background: #161619;
+    margin: 0.5em 0;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-icon {
+    color: #918E9B;
+    font-size: 1.56em;
+}
+
+.footer-icon:hover {
+    cursor: pointer;
+    color: #8ecae6;
+}
